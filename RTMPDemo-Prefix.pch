@@ -1,0 +1,23 @@
+//
+//  RTMPDemo-Prefix.pch
+//  RTMPDemo
+//
+//  Created by 国平 杨 on 17/1/6.
+//  Copyright © 2017年 国平 杨. All rights reserved.
+//
+
+#ifndef RTMPDemo_Prefix_pch
+#define RTMPDemo_Prefix_pch
+
+#import <VideoToolbox/VideoToolbox.h>
+#import "YGPVideoConfigure.h"
+#import "YGPFLVStream.h"
+#import "YGPVideoEncoder.h"
+#import "YGPAACEncoder.h"
+#import "YGPFLVStructure.h"
+#import "rtmp.h"
+#import "YGPRTMPCalss.h"
+#import "YGPFLVTagClass.h"
+#import "YGPCommonMethod.h"
+
+#endif /* RTMPDemo_Prefix_pch */

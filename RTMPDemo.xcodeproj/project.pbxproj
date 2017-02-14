@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590544D01E5186A500E50BDB /* YGPCommonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 590544CF1E5186A500E50BDB /* YGPCommonMethod.m */; };
+		5949EB031E15028800D02DFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5949EB021E15028800D02DFB /* Foundation.framework */; };
+		594F88261E4C1B45007D7579 /* YGPFLVHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F88251E4C1B45007D7579 /* YGPFLVHeader.m */; };
+		594F88591E4D934A007D7579 /* YGPRTMPCalss.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F88581E4D934A007D7579 /* YGPRTMPCalss.m */; };
+		594F885C1E4EEFC9007D7579 /* YGPFLVTagClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F885B1E4EEFC9007D7579 /* YGPFLVTagClass.m */; };
+		594F88611E5027A7007D7579 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F885D1E5027A6007D7579 /* libz.1.1.3.tbd */; };
+		594F88621E5027A7007D7579 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F885E1E5027A6007D7579 /* libcrypto.a */; };
+		594F88631E5027A7007D7579 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F885F1E5027A6007D7579 /* libssl.a */; };
+		594F88641E5027A7007D7579 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F88601E5027A6007D7579 /* librtmp.a */; };
 		595B72FD1E12964800CAD45E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B72FC1E12964800CAD45E /* main.m */; };
 		595B73001E12964800CAD45E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B72FF1E12964800CAD45E /* AppDelegate.m */; };
 		595B73031E12964800CAD45E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B73021E12964800CAD45E /* ViewController.m */; };
@@ -15,6 +24,21 @@
 		595B730B1E12964900CAD45E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595B73091E12964900CAD45E /* LaunchScreen.storyboard */; };
 		595B73161E12964900CAD45E /* RTMPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B73151E12964900CAD45E /* RTMPDemoTests.m */; };
 		595B73211E12964900CAD45E /* RTMPDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B73201E12964900CAD45E /* RTMPDemoUITests.m */; };
+		595B73441E12B0C100CAD45E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595B73431E12B0C100CAD45E /* AVFoundation.framework */; };
+		595B734C1E12B2CD00CAD45E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595B734B1E12B2CD00CAD45E /* CoreGraphics.framework */; };
+		595B735A1E12B4A900CAD45E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595B73491E12B2B500CAD45E /* AudioToolbox.framework */; };
+		595B735F1E12B4F900CAD45E /* YGPCaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B735C1E12B4F900CAD45E /* YGPCaptureSessionManager.m */; };
+		595B73601E12B4F900CAD45E /* YGPLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B735E1E12B4F900CAD45E /* YGPLiveViewController.m */; };
+		595B73611E13536300CAD45E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595B73451E12B13900CAD45E /* CoreVideo.framework */; };
+		595B73641E13862800CAD45E /* YGPVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B73631E13862800CAD45E /* YGPVideoEncoder.m */; };
+		595B736C1E14A12600CAD45E /* YGPRTMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 595B736B1E14A12600CAD45E /* YGPRTMP.m */; };
+		595B737B1E14BD5400CAD45E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 595B737A1E14BD5400CAD45E /* libc++.tbd */; };
+		59A793391E2356E0009CA75F /* YGPAACEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A793381E2356E0009CA75F /* YGPAACEncoder.m */; };
+		59AEAE151E1F950C001A8231 /* YGPVideoConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AEAE141E1F950C001A8231 /* YGPVideoConfigure.m */; };
+		59AEAE1B1E1FD5EE001A8231 /* YGPFLVStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AEAE1A1E1FD5EE001A8231 /* YGPFLVStream.m */; };
+		59CA11691E28B592001BC32B /* YGPFLVMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CA11681E28B592001BC32B /* YGPFLVMetadata.m */; };
+		59CA116C1E28C2D0001BC32B /* YGPFLVStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CA116B1E28C2D0001BC32B /* YGPFLVStructure.m */; };
+		6358319AE2F7E318B72897E7 /* libPods-RTMPDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D233ED0B1D6528BC1A56C5C5 /* libPods-RTMPDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +59,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		590544CE1E5186A500E50BDB /* YGPCommonMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPCommonMethod.h; sourceTree = "<group>"; };
+		590544CF1E5186A500E50BDB /* YGPCommonMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPCommonMethod.m; sourceTree = "<group>"; };
+		5949EB021E15028800D02DFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		594F88241E4C1B45007D7579 /* YGPFLVHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPFLVHeader.h; sourceTree = "<group>"; };
+		594F88251E4C1B45007D7579 /* YGPFLVHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPFLVHeader.m; sourceTree = "<group>"; };
+		594F88571E4D934A007D7579 /* YGPRTMPCalss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPRTMPCalss.h; sourceTree = "<group>"; };
+		594F88581E4D934A007D7579 /* YGPRTMPCalss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPRTMPCalss.m; sourceTree = "<group>"; };
+		594F885A1E4EEFC9007D7579 /* YGPFLVTagClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPFLVTagClass.h; sourceTree = "<group>"; };
+		594F885B1E4EEFC9007D7579 /* YGPFLVTagClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPFLVTagClass.m; sourceTree = "<group>"; };
+		594F885D1E5027A6007D7579 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.1.1.3.tbd; sourceTree = "<group>"; };
+		594F885E1E5027A6007D7579 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		594F885F1E5027A6007D7579 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		594F88601E5027A6007D7579 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		594F88661E5027EF007D7579 /* amf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
+		594F88671E5027EF007D7579 /* rtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp.h; sourceTree = "<group>"; };
 		595B72F81E12964800CAD45E /* RTMPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTMPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		595B72FC1E12964800CAD45E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		595B72FE1E12964800CAD45E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +90,41 @@
 		595B731C1E12964900CAD45E /* RTMPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTMPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		595B73201E12964900CAD45E /* RTMPDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMPDemoUITests.m; sourceTree = "<group>"; };
 		595B73221E12964900CAD45E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595B73431E12B0C100CAD45E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		595B73451E12B13900CAD45E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		595B73471E12B1A900CAD45E /* libprequelite.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libprequelite.tbd; path = usr/lib/libprequelite.tbd; sourceTree = SDKROOT; };
+		595B73491E12B2B500CAD45E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		595B734B1E12B2CD00CAD45E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		595B734D1E12B2DA00CAD45E /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		595B734F1E12B2FD00CAD45E /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		595B73511E12B33800CAD45E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		595B73531E12B34600CAD45E /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		595B73551E12B36000CAD45E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		595B73571E12B38F00CAD45E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		595B735B1E12B4F900CAD45E /* YGPCaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPCaptureSessionManager.h; sourceTree = "<group>"; };
+		595B735C1E12B4F900CAD45E /* YGPCaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPCaptureSessionManager.m; sourceTree = "<group>"; };
+		595B735D1E12B4F900CAD45E /* YGPLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPLiveViewController.h; sourceTree = "<group>"; };
+		595B735E1E12B4F900CAD45E /* YGPLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPLiveViewController.m; sourceTree = "<group>"; };
+		595B73621E13862800CAD45E /* YGPVideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YGPVideoEncoder.h; path = RTMPDemo/YGPVideoEncoder.h; sourceTree = "<group>"; };
+		595B73631E13862800CAD45E /* YGPVideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YGPVideoEncoder.m; path = RTMPDemo/YGPVideoEncoder.m; sourceTree = "<group>"; };
+		595B736A1E14A12600CAD45E /* YGPRTMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPRTMP.h; sourceTree = "<group>"; };
+		595B736B1E14A12600CAD45E /* YGPRTMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPRTMP.m; sourceTree = "<group>"; };
+		595B737A1E14BD5400CAD45E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		59A793371E2356E0009CA75F /* YGPAACEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YGPAACEncoder.h; path = RTMPDemo/YGPAACEncoder.h; sourceTree = "<group>"; };
+		59A793381E2356E0009CA75F /* YGPAACEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YGPAACEncoder.m; path = RTMPDemo/YGPAACEncoder.m; sourceTree = "<group>"; };
+		59AEAE131E1F950C001A8231 /* YGPVideoConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPVideoConfigure.h; sourceTree = "<group>"; };
+		59AEAE141E1F950C001A8231 /* YGPVideoConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPVideoConfigure.m; sourceTree = "<group>"; };
+		59AEAE191E1FD5EE001A8231 /* YGPFLVStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPFLVStream.h; sourceTree = "<group>"; };
+		59AEAE1A1E1FD5EE001A8231 /* YGPFLVStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPFLVStream.m; sourceTree = "<group>"; };
+		59AEAE1C1E1FDA4C001A8231 /* YGPVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGPVideo.h; sourceTree = "<group>"; };
+		59AEAE1E1E1FDC4B001A8231 /* RTMPDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTMPDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		59CA11671E28B592001BC32B /* YGPFLVMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPFLVMetadata.h; sourceTree = "<group>"; };
+		59CA11681E28B592001BC32B /* YGPFLVMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPFLVMetadata.m; sourceTree = "<group>"; };
+		59CA116A1E28C2D0001BC32B /* YGPFLVStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPFLVStructure.h; sourceTree = "<group>"; };
+		59CA116B1E28C2D0001BC32B /* YGPFLVStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPFLVStructure.m; sourceTree = "<group>"; };
+		C11446EDA0E5E3E39D116C00 /* Pods-RTMPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTMPDemo/Pods-RTMPDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D233ED0B1D6528BC1A56C5C5 /* libPods-RTMPDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTMPDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9647AD6300DE0035D1878BD /* Pods-RTMPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTMPDemo/Pods-RTMPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +132,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F88611E5027A7007D7579 /* libz.1.1.3.tbd in Frameworks */,
+				5949EB031E15028800D02DFB /* Foundation.framework in Frameworks */,
+				594F88621E5027A7007D7579 /* libcrypto.a in Frameworks */,
+				595B737B1E14BD5400CAD45E /* libc++.tbd in Frameworks */,
+				595B73611E13536300CAD45E /* CoreVideo.framework in Frameworks */,
+				595B735A1E12B4A900CAD45E /* AudioToolbox.framework in Frameworks */,
+				595B734C1E12B2CD00CAD45E /* CoreGraphics.framework in Frameworks */,
+				595B73441E12B0C100CAD45E /* AVFoundation.framework in Frameworks */,
+				594F88631E5027A7007D7579 /* libssl.a in Frameworks */,
+				594F88641E5027A7007D7579 /* librtmp.a in Frameworks */,
+				6358319AE2F7E318B72897E7 /* libPods-RTMPDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +163,132 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D49856498CC76F57936F6F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5949EB021E15028800D02DFB /* Foundation.framework */,
+				595B737A1E14BD5400CAD45E /* libc++.tbd */,
+				595B73571E12B38F00CAD45E /* CoreAudio.framework */,
+				595B73551E12B36000CAD45E /* libiconv.tbd */,
+				595B73531E12B34600CAD45E /* libbz2.tbd */,
+				595B73511E12B33800CAD45E /* libz.tbd */,
+				595B734F1E12B2FD00CAD45E /* CoreAudioKit.framework */,
+				595B734D1E12B2DA00CAD45E /* AudioUnit.framework */,
+				595B734B1E12B2CD00CAD45E /* CoreGraphics.framework */,
+				595B73491E12B2B500CAD45E /* AudioToolbox.framework */,
+				595B73471E12B1A900CAD45E /* libprequelite.tbd */,
+				595B73451E12B13900CAD45E /* CoreVideo.framework */,
+				595B73431E12B0C100CAD45E /* AVFoundation.framework */,
+				D233ED0B1D6528BC1A56C5C5 /* libPods-RTMPDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1883B1BE08E6ABBCFDA3C172 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9647AD6300DE0035D1878BD /* Pods-RTMPDemo.debug.xcconfig */,
+				C11446EDA0E5E3E39D116C00 /* Pods-RTMPDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		590544CB1E515BB500E50BDB /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				595B735D1E12B4F900CAD45E /* YGPLiveViewController.h */,
+				595B735E1E12B4F900CAD45E /* YGPLiveViewController.m */,
+				595B735B1E12B4F900CAD45E /* YGPCaptureSessionManager.h */,
+				595B735C1E12B4F900CAD45E /* YGPCaptureSessionManager.m */,
+			);
+			name = Capture;
+			sourceTree = "<group>";
+		};
+		590544D11E5186AD00E50BDB /* common */ = {
+			isa = PBXGroup;
+			children = (
+				590544CE1E5186A500E50BDB /* YGPCommonMethod.h */,
+				590544CF1E5186A500E50BDB /* YGPCommonMethod.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		590544D51E52B43600E50BDB /* openSoucre */ = {
+			isa = PBXGroup;
+			children = (
+				594F88651E5027EF007D7579 /* librtmp */,
+				594F885D1E5027A6007D7579 /* libz.1.1.3.tbd */,
+				594F885E1E5027A6007D7579 /* libcrypto.a */,
+				594F885F1E5027A6007D7579 /* libssl.a */,
+				594F88601E5027A6007D7579 /* librtmp.a */,
+			);
+			name = openSoucre;
+			sourceTree = "<group>";
+		};
+		590544D61E52B48D00E50BDB /* encode */ = {
+			isa = PBXGroup;
+			children = (
+				595B73621E13862800CAD45E /* YGPVideoEncoder.h */,
+				595B73631E13862800CAD45E /* YGPVideoEncoder.m */,
+				59A793371E2356E0009CA75F /* YGPAACEncoder.h */,
+				59A793381E2356E0009CA75F /* YGPAACEncoder.m */,
+			);
+			name = encode;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		594F88231E4C1B2A007D7579 /* FLV */ = {
+			isa = PBXGroup;
+			children = (
+				59CA116A1E28C2D0001BC32B /* YGPFLVStructure.h */,
+				59CA116B1E28C2D0001BC32B /* YGPFLVStructure.m */,
+				59CA11671E28B592001BC32B /* YGPFLVMetadata.h */,
+				59CA11681E28B592001BC32B /* YGPFLVMetadata.m */,
+				594F88241E4C1B45007D7579 /* YGPFLVHeader.h */,
+				594F88251E4C1B45007D7579 /* YGPFLVHeader.m */,
+			);
+			name = FLV;
+			sourceTree = "<group>";
+		};
+		594F88561E4D932D007D7579 /* rtmp */ = {
+			isa = PBXGroup;
+			children = (
+				594F88571E4D934A007D7579 /* YGPRTMPCalss.h */,
+				594F88581E4D934A007D7579 /* YGPRTMPCalss.m */,
+				594F885A1E4EEFC9007D7579 /* YGPFLVTagClass.h */,
+				594F885B1E4EEFC9007D7579 /* YGPFLVTagClass.m */,
+			);
+			name = rtmp;
+			sourceTree = "<group>";
+		};
+		594F88651E5027EF007D7579 /* librtmp */ = {
+			isa = PBXGroup;
+			children = (
+				594F88661E5027EF007D7579 /* amf.h */,
+				594F88671E5027EF007D7579 /* rtmp.h */,
+			);
+			path = librtmp;
+			sourceTree = "<group>";
+		};
+		594F88721E508FC1007D7579 /* configuse */ = {
+			isa = PBXGroup;
+			children = (
+				59AEAE131E1F950C001A8231 /* YGPVideoConfigure.h */,
+				59AEAE141E1F950C001A8231 /* YGPVideoConfigure.m */,
+			);
+			name = configuse;
+			sourceTree = "<group>";
+		};
 		595B72EF1E12964800CAD45E = {
 			isa = PBXGroup;
 			children = (
+				590544D51E52B43600E50BDB /* openSoucre */,
 				595B72FA1E12964800CAD45E /* RTMPDemo */,
 				595B73141E12964900CAD45E /* RTMPDemoTests */,
 				595B731F1E12964900CAD45E /* RTMPDemoUITests */,
 				595B72F91E12964800CAD45E /* Products */,
+				1883B1BE08E6ABBCFDA3C172 /* Pods */,
+				0D49856498CC76F57936F6F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +305,14 @@
 		595B72FA1E12964800CAD45E /* RTMPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				590544D11E5186AD00E50BDB /* common */,
+				590544CB1E515BB500E50BDB /* Capture */,
+				594F88721E508FC1007D7579 /* configuse */,
+				594F88561E4D932D007D7579 /* rtmp */,
+				590544D61E52B48D00E50BDB /* encode */,
+				594F88231E4C1B2A007D7579 /* FLV */,
+				59AEAE191E1FD5EE001A8231 /* YGPFLVStream.h */,
+				59AEAE1A1E1FD5EE001A8231 /* YGPFLVStream.m */,
 				595B72FE1E12964800CAD45E /* AppDelegate.h */,
 				595B72FF1E12964800CAD45E /* AppDelegate.m */,
 				595B73011E12964800CAD45E /* ViewController.h */,
@@ -110,6 +322,9 @@
 				595B73091E12964900CAD45E /* LaunchScreen.storyboard */,
 				595B730C1E12964900CAD45E /* Info.plist */,
 				595B72FB1E12964800CAD45E /* Supporting Files */,
+				595B736A1E14A12600CAD45E /* YGPRTMP.h */,
+				595B736B1E14A12600CAD45E /* YGPRTMP.m */,
+				59AEAE1C1E1FDA4C001A8231 /* YGPVideo.h */,
 			);
 			path = RTMPDemo;
 			sourceTree = "<group>";
@@ -117,6 +332,7 @@
 		595B72FB1E12964800CAD45E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				59AEAE1E1E1FDC4B001A8231 /* RTMPDemo-Prefix.pch */,
 				595B72FC1E12964800CAD45E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -147,9 +363,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 595B73251E12964900CAD45E /* Build configuration list for PBXNativeTarget "RTMPDemo" */;
 			buildPhases = (
+				7076BAE4A1C8D3219711FFC3 /* [CP] Check Pods Manifest.lock */,
 				595B72F41E12964800CAD45E /* Sources */,
 				595B72F51E12964800CAD45E /* Frameworks */,
 				595B72F61E12964800CAD45E /* Resources */,
+				9C56337655CD60C3B07B0F4D /* [CP] Embed Pods Frameworks */,
+				CC91E9DC2088610D16E0C7A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +490,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7076BAE4A1C8D3219711FFC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C56337655CD60C3B07B0F4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTMPDemo/Pods-RTMPDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC91E9DC2088610D16E0C7A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RTMPDemo/Pods-RTMPDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		595B72F41E12964800CAD45E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595B735F1E12B4F900CAD45E /* YGPCaptureSessionManager.m in Sources */,
+				595B73601E12B4F900CAD45E /* YGPLiveViewController.m in Sources */,
 				595B73031E12964800CAD45E /* ViewController.m in Sources */,
+				595B73641E13862800CAD45E /* YGPVideoEncoder.m in Sources */,
+				594F885C1E4EEFC9007D7579 /* YGPFLVTagClass.m in Sources */,
+				594F88591E4D934A007D7579 /* YGPRTMPCalss.m in Sources */,
+				590544D01E5186A500E50BDB /* YGPCommonMethod.m in Sources */,
+				59CA116C1E28C2D0001BC32B /* YGPFLVStructure.m in Sources */,
 				595B73001E12964800CAD45E /* AppDelegate.m in Sources */,
 				595B72FD1E12964800CAD45E /* main.m in Sources */,
+				59AEAE1B1E1FD5EE001A8231 /* YGPFLVStream.m in Sources */,
+				594F88261E4C1B45007D7579 /* YGPFLVHeader.m in Sources */,
+				59CA11691E28B592001BC32B /* YGPFLVMetadata.m in Sources */,
+				595B736C1E14A12600CAD45E /* YGPRTMP.m in Sources */,
+				59AEAE151E1F950C001A8231 /* YGPVideoConfigure.m in Sources */,
+				59A793391E2356E0009CA75F /* YGPAACEncoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,25 +705,53 @@
 		};
 		595B73261E12964900CAD45E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9647AD6300DE0035D1878BD /* Pods-RTMPDemo.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VTP2CF6FWX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTMPDemo",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RTMPDemo-Prefix.pch";
 				INFOPLIST_FILE = RTMPDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = aaaaaa.RTMPDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		595B73271E12964900CAD45E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11446EDA0E5E3E39D116C00 /* Pods-RTMPDemo.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VTP2CF6FWX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTMPDemo",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RTMPDemo-Prefix.pch";
 				INFOPLIST_FILE = RTMPDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = aaaaaa.RTMPDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -516,6 +824,7 @@
 				595B73271E12964900CAD45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		595B73281E12964900CAD45E /* Build configuration list for PBXNativeTarget "RTMPDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +833,7 @@
 				595B732A1E12964900CAD45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		595B732B1E12964900CAD45E /* Build configuration list for PBXNativeTarget "RTMPDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +842,7 @@
 				595B732D1E12964900CAD45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
